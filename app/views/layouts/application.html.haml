@@ -1,0 +1,22 @@
+!!! 5
+%html
+%head
+	%title ArtRising.ie
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+	= csrf_meta_tags
+
+%body
+	= render :partial => "layouts/header"
+
+.container.mymargin
+	- flash.each do |name, msg|
+		= content_tag :div, msg, class: "alert alert-info"
+	= yield
+.navbar.navbar-default.navbar-fixed-bottom
+	.container
+	.col-md-2.col-md-offset-2.pull-left
+		.form-group
+			= form_tag(pins_path, :class => "form-inline pull-left", :method => "get", id: "search-form") do
+				= text_field_tag :search, params[:search], placeholder: "Search For Art", class: 'form-control'
+				= submit_tag "Search", name: nil, class: 'btn btn-primary inline-button pull-left'
