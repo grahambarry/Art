@@ -20,6 +20,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-custom {
+	background-image: url("Art-Rising-Nav-Bg.jpg");
+	  background-repeat:no-repeat;
+    background-size:cover;
+}
+
 
 body {
 	background: #E9E9E9;
