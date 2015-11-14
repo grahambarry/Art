@@ -1,21 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ArtRising.ie
 
-Things you may want to cover:
+* Ruby version 2.1.5
 
-* Ruby version
+* Rails version 4.2.3
 
-* System dependencies
+* Image Magick
+
+* Amazon-AWS-S3 Direct Gem
 
 * Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
 
