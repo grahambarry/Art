@@ -2,7 +2,7 @@ class UsesController < ApplicationController
   before_action :logged_in_use, only: [:index, :edit, :update]
     before_action :correct_use,   only: [:edit, :update]
     before_action :admin_use,     only: [:destroy]
-    before_action :set_user, only: [:show, :edit, :update, :destroy]
+    before_action :set_use, only: [:show, :edit, :update, :destroy]
     before_action :set_s3_direct_post, only: [:new, :edit, :create, :update]
     
 def to_key
@@ -81,10 +81,10 @@ end
     end
 
     # Use callbacks to share common setup or constraints between actions.
-    def set_user
-      @user = User.find(params[:id])
+    def set_use
+      @use = Use.find(params[:id])
     end
-    
+
 def set_s3_direct_post
     @s3_direct_post = S3_BUCKET.presigned_post(key: "uploads/#{SecureRandom.uuid}/${filename}", success_action_status: '201', acl: 'public-read')
   end
