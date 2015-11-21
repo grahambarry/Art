@@ -39995,3 +39995,587 @@ Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2015-11-21 16:53
 
 
 Started GET "/assets/uses.self.css?body=1" for 127.0.0.1 at 2015-11-21 16:53:07 +0000
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:08:28 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.8ms)
+
+NoMethodError (undefined method `presigned_post' for nil:NilClass):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:09:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_error_messages.html.haml (6.0ms)
+  Rendered uses/edit.html.haml within layouts/application (495.2ms)
+  Rendered layouts/_header.html.haml (10.7ms)
+Completed 200 OK in 1105ms (Views: 1052.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:07 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-11-21 18:09:08 +0000
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:10:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.4ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_error_messages.html.haml (6.0ms)
+  Rendered uses/edit.html.haml within layouts/application (461.5ms)
+  Rendered layouts/_header.html.haml (8.3ms)
+Completed 200 OK in 1107ms (Views: 1052.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/password_resets.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:26 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-11-21 18:10:27 +0000
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:13:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.9ms)
+
+NoMethodError (undefined method `presigned_post' for nil:NilClass):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:13:50 +0000
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.9ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:14:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.8ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:14:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.8ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.2ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:14:46 +0000
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:14:50 +0000
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:16:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.2ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.9ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.7ms)
+
+
+Started GET "/uses/1/edit" for 127.0.0.1 at 2015-11-21 18:16:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 1.1ms)
+
+NameError (uninitialized constant UsesController::S3_BUCKET_NAME):
+  app/controllers/uses_controller.rb:89:in `set_s3_direct_post'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+Processing by PinsController#index as HTML
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from add_active_record_callbacks at /Users/grahambarry/.rvm/gems/ruby-2.1.5/bundler/gems/paperclip-7eec87bf99e2/lib/paperclip/has_attached_file.rb:95)
+  [1m[36mUse Load (0.3ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0
+  Rendered pins/index.html.haml within layouts/application (9.7ms)
+  Rendered layouts/_header.html.haml (15.1ms)
+Completed 200 OK in 637ms (Views: 601.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/pins.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:50 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+Started GET "/assets/microposts.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-11-21 18:16:51 +0000
