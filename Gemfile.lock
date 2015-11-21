@@ -59,6 +59,9 @@ GEM
       jmespath (~> 1.0)
     aws-sdk-resources (2.2.1)
       aws-sdk-core (= 2.2.1)
+    aws-sdk-v1 (1.66.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     bcrypt (3.1.10)
     bcrypt (3.1.10-x86-mingw32)
     bootstrap-sass (3.3.5.1)
@@ -227,6 +230,7 @@ DEPENDENCIES
   acts_as_votable (~> 0.10.0)
   autoprefixer-rails
   aws-sdk (~> 2)
+  aws-sdk-v1
   bcrypt (~> 3.1.10)
   bootstrap-sass
   bootstrap-will_paginate (~> 0.0.10)
