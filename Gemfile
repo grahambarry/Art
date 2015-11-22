@@ -8,7 +8,7 @@ gem "figaro"
 gem "puma"
 gem 'aws-sdk-v1'
 gem 'aws-sdk', '~> 2'
-
+gem 'delayed_job_active_record'
 gem 's3_direct_upload'
 gem 'slim', '~> 3.0.6'
 gem 'spring', '~> 1.3.6'

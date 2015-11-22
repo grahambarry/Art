@@ -18,12 +18,13 @@
             SHOP NOW
             %span.sr-only (current)
       %ul.nav.navbar-nav.navbar-right
-        %li.form.navbar-form.navbar{:role => "search"}
+        %li.form.navbar-form.navbar{:role => "search" }
           .input-group
-            %input.form-control{:placeholder => "Art, Artists, Photography, Places", :type => "text"}
+            %input.form-control{:placeholder => "Art, Artists, Photography, Places", :type => "text", :method => "get", id: "search-form"}
             %span.input-group-btn
-              %button.btn.btn-default{"aria-label" => "Left Align", :type => "button"}
+              %button.btn.btn-default{"aria-label" => "Left Align", :type => "button", name: nil,}
                 %span.glyphicon.glyphicon-search{"aria-hidden" => "true"}
+
 
         - if logged_in?
           %li.dropdown
