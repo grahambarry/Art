@@ -58964,3 +58964,675 @@ Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 20
 
 
 Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/" for ::1 at 2015-11-23 12:20:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from add_active_record_callbacks at /Users/grahambarry/.rvm/gems/ruby-2.1.5/bundler/gems/paperclip-7eec87bf99e2/lib/paperclip/has_attached_file.rb:95)
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0
+  Rendered pins/index.html.haml within layouts/application (6.4ms)
+  Rendered layouts/_header.html.haml (8.8ms)
+Completed 200 OK in 3258ms (Views: 3234.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-23 12:20:58 +0000
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.5ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (1.7ms)
+  Rendered layouts/_header.html.haml (2.9ms)
+Completed 200 OK in 248ms (Views: 246.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-23 12:20:58 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-23 12:20:58 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-23 12:20:58 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-23 12:20:59 +0000
+
+
+Started GET "/login" for ::1 at 2015-11-23 12:21:03 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (380.8ms)
+  Rendered layouts/_header.html.haml (10.9ms)
+Completed 200 OK in 669ms (Views: 668.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-23 12:21:04 +0000
+
+
+Started POST "/login" for ::1 at 2015-11-23 12:21:10 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z9g/+sExde9Zy+W9y/7IUGdvfalgnAkq4uSJ289Vs+xidgBNi/1L3C/KVqeaOOFyloA1CNK321aRjVfLMwCC+g==", "session"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUse Load (0.3ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."email" = ? LIMIT 1  [["email", "test@test.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/uses/1
+Completed 302 Found in 123ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/uses/1" for ::1 at 2015-11-23 12:21:10 +0000
+Processing by UsesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUse Load (0.2ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mMicropost Exists (0.2ms)[0m  SELECT  1 AS one FROM "microposts" WHERE "microposts"."use_id" = ? LIMIT 1  [["use_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."use_id" = ?[0m  [["use_id", 1]]
+  Rendered shared/_use_info.html.haml (3.3ms)
+  Rendered uses/show.html.haml within layouts/application (14.6ms)
+  Rendered layouts/_header.html.haml (4.5ms)
+Completed 200 OK in 335ms (Views: 311.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-23 12:21:11 +0000
+
+
+Started GET "/pins/new" for ::1 at 2015-11-23 12:21:15 +0000
+Processing by PinsController#new as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/_form.html.haml (44.7ms)
+  Rendered pins/new.html.haml within layouts/application (47.7ms)
+  Rendered layouts/_header.html.haml (2.9ms)
+Completed 200 OK in 339ms (Views: 326.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-23 12:21:15 +0000
+
+
+Started POST "/pins" for ::1 at 2015-11-23 12:21:30 +0000
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OINPQZGoC2SMZbKcsJcG/u5OVjhA9UEbmXNzk+GSKaOVLXD222Q1V/pkAYbhUS/cH6EemfLek2fqGq2DHccYtQ==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f80638f6b88 @tempfile=#<Tempfile:/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/RackMultipart20151123-6784-38zfqw.jpg>, @original_filename="The Aviva At The End Of Winter.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"The Aviva At The End Of Winter.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"First One", "description"=>"Please"}, "commit"=>"Create Pin"}
+  [1m[36mUse Load (0.1ms)[0m  [1mSELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1[0m  [["id", 1]]
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6784-1qie0z1.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' -auto-orient -resize "960x960>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/dcba84bd24f556c25f0b4ed33c6c729020151123-6784-jzgf8'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/dcba84bd24f556c25f0b4ed33c6c729020151123-6784-s8i4t2'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/dcba84bd24f556c25f0b4ed33c6c729020151123-6784-3cc3rx'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/47abd9673d1409b8c53bf9c9d5f289e920151123-6784-l34fnq[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/38e48decda519e5fa82757d4717df99320151123-6784-mlr4r0[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/089257a267abcf05d2fa6e257ee3652320151123-6784-1ovnv7p[0]' 2>/dev/null
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6784-1urbb4e.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "pins" ("title", "description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "image_meta", "use_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "First One"], ["description", "Please"], ["image_file_name", "The_Aviva_At_The_End_Of_Winter.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 8878025], ["image_updated_at", "2015-11-23 12:21:30.719741"], ["image_meta", "BAh7CToNb3JpZ2luYWx7CDoKd2lkdGhpAqkPOgtoZWlnaHRpArILOglzaXpl\naQPJd4c6Cmxhcmdlewg7BmkCwAM7B2kCzQI7CGkDHBEKOgttZWRpdW17CDsG\naQIsATsHaQHgOwhpA6ujAToKdGh1bWJ7CDsGaWk7B2lQOwhpAqa1\n"], ["use_id", 1], ["created_at", "2015-11-23 12:21:36.144344"], ["updated_at", "2015-11-23 12:21:36.144344"]]
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-885zg2.jpg[0]' 2>/dev/null
+  [1m[35mSQL (0.2ms)[0m  UPDATE "pins" SET "aspect" = 1 WHERE "pins"."id" = ?  [["id", 1]]
+[paperclip] saving /pins/images/000/000/001/original/The_Aviva_At_The_End_Of_Winter.jpg
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6053ms (ActiveRecord: 1.5ms)
+
+ArgumentError (missing required :bucket option):
+  app/controllers/pins_controller.rb:61:in `create'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.7ms)
+
+
+Started POST "/pins" for ::1 at 2015-11-23 12:24:48 +0000
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OINPQZGoC2SMZbKcsJcG/u5OVjhA9UEbmXNzk+GSKaOVLXD222Q1V/pkAYbhUS/cH6EemfLek2fqGq2DHccYtQ==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8060e95718 @tempfile=#<Tempfile:/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/RackMultipart20151123-6784-s0pg9s.jpg>, @original_filename="The Aviva At The End Of Winter.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"The Aviva At The End Of Winter.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"First One", "description"=>"Please"}, "commit"=>"Create Pin"}
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6784-1jjti5t.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' -auto-orient -resize "960x960>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/b0395b7cf5f6317bc483ed5bde5a218820151123-6784-skhqr0'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/b0395b7cf5f6317bc483ed5bde5a218820151123-6784-1owaw3v'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/b0395b7cf5f6317bc483ed5bde5a218820151123-6784-12wwomm'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/897cd4432e7fba9eeb6d80c938ef38d720151123-6784-m0zein[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/03d49938adeb3347ea725fbf75a63f7520151123-6784-55m5j0[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/25448b9b7fa82329449640eeba73255c20151123-6784-1l6h0za[0]' 2>/dev/null
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6784-19izxm8.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "pins" ("title", "description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "image_meta", "use_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", "First One"], ["description", "Please"], ["image_file_name", "The_Aviva_At_The_End_Of_Winter.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 8878025], ["image_updated_at", "2015-11-23 12:24:48.253741"], ["image_meta", "BAh7CToNb3JpZ2luYWx7CDoKd2lkdGhpAqkPOgtoZWlnaHRpArILOglzaXpl\naQPJd4c6Cmxhcmdlewg7BmkCwAM7B2kCzQI7CGkDHBEKOgttZWRpdW17CDsG\naQIsATsHaQHgOwhpA6ujAToKdGh1bWJ7CDsGaWk7B2lQOwhpAqa1\n"], ["use_id", 1], ["created_at", "2015-11-23 12:24:53.679672"], ["updated_at", "2015-11-23 12:24:53.679672"]]
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6784-zz152q.jpg[0]' 2>/dev/null
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "pins" SET "aspect" = 1 WHERE "pins"."id" = ?[0m  [["id", 1]]
+[paperclip] saving /pins/images/000/000/001/original/The_Aviva_At_The_End_Of_Winter.jpg
+  [1m[35m (4.7ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 5954ms (ActiveRecord: 5.9ms)
+
+ArgumentError (missing required :bucket option):
+  app/controllers/pins_controller.rb:61:in `create'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+
+
+Started POST "/pins" for ::1 at 2015-11-23 12:26:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OINPQZGoC2SMZbKcsJcG/u5OVjhA9UEbmXNzk+GSKaOVLXD222Q1V/pkAYbhUS/cH6EemfLek2fqGq2DHccYtQ==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fce574b2ff8 @tempfile=#<Tempfile:/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/RackMultipart20151123-6908-lwkuaw.jpg>, @original_filename="The Aviva At The End Of Winter.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"The Aviva At The End Of Winter.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"First One", "description"=>"Please"}, "commit"=>"Create Pin"}
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from add_active_record_callbacks at /Users/grahambarry/.rvm/gems/ruby-2.1.5/bundler/gems/paperclip-7eec87bf99e2/lib/paperclip/has_attached_file.rb:95)
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6908-1ftfxjg.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' -auto-orient -resize "960x960>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/ed9c370b053c948286aa461e8a79e36f20151123-6908-35ba9i'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/ed9c370b053c948286aa461e8a79e36f20151123-6908-15v0fpu'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format %m '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]'
+Command :: PATH=/usr/local/bin/identify:$PATH; convert '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/ed9c370b053c948286aa461e8a79e36f20151123-6908-cqc2z4'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/cdabed38a181aecf4f089cbd1cdd799d20151123-6908-1atztw0[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d8acbe6514d4366a91fa78e982548e7c20151123-6908-vgawfy[0]' 2>/dev/null
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/b87aaf0f2c00391c11ee25c5137e1af920151123-6908-1r88i0r[0]' 2>/dev/null
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: PATH=/usr/local/bin/identify:$PATH; file -b --mime '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/d657ad9ea0aa798d58e3839e2835eaba20151123-6908-4cr4vy.jpg'
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "pins" ("title", "description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "image_meta", "use_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", "First One"], ["description", "Please"], ["image_file_name", "The_Aviva_At_The_End_Of_Winter.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 8878025], ["image_updated_at", "2015-11-23 12:26:40.338183"], ["image_meta", "BAh7CToNb3JpZ2luYWx7CDoKd2lkdGhpAqkPOgtoZWlnaHRpArILOglzaXpl\naQPJd4c6Cmxhcmdlewg7BmkCwAM7B2kCzQI7CGkDHBEKOgttZWRpdW17CDsG\naQIsATsHaQHgOwhpA6ujAToKdGh1bWJ7CDsGaWk7B2lQOwhpAqa1\n"], ["use_id", 1], ["created_at", "2015-11-23 12:26:45.636839"], ["updated_at", "2015-11-23 12:26:45.636839"]]
+Command :: PATH=/usr/local/bin/identify:$PATH; identify -format '%wx%h,%[exif:orientation]' '/var/folders/g0/3r0_6jrs0p5c7x9010p1nn0h0000gn/T/7b3285451de74d3606a378b304f96bdd20151123-6908-1unotp5.jpg[0]' 2>/dev/null
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "pins" SET "aspect" = 1 WHERE "pins"."id" = ?[0m  [["id", 1]]
+[paperclip] saving /pins/images/000/000/001/original/The_Aviva_At_The_End_Of_Winter.jpg
+  [1m[35m (4.3ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 6016ms (ActiveRecord: 6.2ms)
+
+ArgumentError (missing required :bucket option):
+  app/controllers/pins_controller.rb:61:in `create'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.1ms)
