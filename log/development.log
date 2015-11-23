@@ -54573,3 +54573,4394 @@ Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-21 21:48:52 +0000
 
 
 Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-21 21:48:52 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:25:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from add_active_record_callbacks at /Users/grahambarry/.rvm/gems/ruby-2.1.5/bundler/gems/paperclip-7eec87bf99e2/lib/paperclip/has_attached_file.rb:95)
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (5.6ms)
+  Rendered layouts/_header.html.haml (9.5ms)
+Completed 200 OK in 573ms (Views: 508.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:25:24 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:27:40 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (11.7ms)
+Completed 200 OK in 341ms (Views: 338.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:27:40 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:29:31 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (8.7ms)
+Completed 200 OK in 274ms (Views: 271.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:29:31 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:29:32 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:30:35 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (2.1ms)
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <nav class="navbar navbar-default">
+    2:   <div class="container-fluid">
+    3:     <!-- Brand and toggle get grouped for better mobile display -->
+    4:     <div class="navbar-header">
+    5:       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  app/views/layouts/_header.html.haml:2
+  app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml__771810002777852351_70183138809440'
+  app/controllers/pins_controller.rb:9:in `index'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 20:30:53 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (9.0ms)
+Completed 200 OK in 293ms (Views: 290.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:30:54 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:31:27 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (10.0ms)
+Completed 200 OK in 293ms (Views: 290.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:31:27 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:32:27 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (9.5ms)
+Completed 200 OK in 282ms (Views: 279.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:32:27 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:32:28 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:32:58 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (1.9ms)
+Completed 500 Internal Server Error in 293ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Inconsistent indentation: 1 space used for indentation, but the rest of the document was indented using 2 spaces.):
+    18:             %span.sr-only (current)
+    19:       %ul.nav.navbar-nav.navbar-right
+    20:         %li.form.navbar-form.navbar{:role => "search" }
+    21:  #         .input-group
+    22: #            %input.form-control{:placeholder => "Art, Artists, Photography, Places", :type => "text", :method => "get", id: "search-form"}
+    23: #            %span.input-group-btn
+    24: #                %span.glyphicon.glyphicon-search{"aria-hidden" => "true"}
+  app/views/layouts/_header.html.haml:21
+  app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml__771810002777852351_70183138809440'
+  app/controllers/pins_controller.rb:9:in `index'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.6ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 20:33:19 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (10.7ms)
+Completed 200 OK in 303ms (Views: 300.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:33:19 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:33:42 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (7.4ms)
+Completed 200 OK in 293ms (Views: 290.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:33:43 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:34:09 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (8.8ms)
+Completed 200 OK in 300ms (Views: 297.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:34:10 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:35:05 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (17.1ms)
+Completed 200 OK in 295ms (Views: 292.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:35:05 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:35:41 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+Completed 500 Internal Server Error in 303ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    17:             SHOP NOW
+    18:             %span.sr-only (current)
+    19:       %ul.nav.navbar-nav.navbar-right
+    20:           .input-group
+    21:             %input.form-control{:placeholder => "Art, Artists, Photography, Places", :type => "text", :method => "get", id: "search-form"}
+    22:             %span.input-group-btn
+    23:               %button.btn.btn-default{"aria-label" => "Left Align", :type => "button", name: nil,}
+  app/views/layouts/_header.html.haml:20
+  app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml__771810002777852351_70183138809440'
+  app/controllers/pins_controller.rb:9:in `index'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 20:36:08 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (12.1ms)
+Completed 200 OK in 304ms (Views: 301.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:36:08 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:36:55 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+Completed 500 Internal Server Error in 299ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Got "else" with no preceding "if"):
+    35:               %li.divider
+    36:               %li
+    37:                 = link_to "Log out", logout_path, method: "delete"
+    38:         - else
+    39:           %li= link_to "Log in", login_path
+    40:           %ul.nav.navbar-nav.navbar.pull-right
+    41:             %li
+  app/views/layouts/_header.html.haml:38
+  app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml__771810002777852351_70183138809440'
+  app/controllers/pins_controller.rb:9:in `index'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 20:37:14 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (3.8ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    36:               %li
+    37:                 = link_to "Log out", logout_path, method: "delete"
+    38:       - else
+    39:           %li= link_to "Log in", login_path
+    40:           %ul.nav.navbar-nav.navbar.pull-right
+    41:             %li
+    42:               %a{:href => login_path} Sign In
+  app/views/layouts/_header.html.haml:39
+  app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml__771810002777852351_70183138809440'
+  app/controllers/pins_controller.rb:9:in `index'
+
+
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/grahambarry/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 20:37:53 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (8.7ms)
+Completed 200 OK in 300ms (Views: 297.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:37:53 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:39:10 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (8.6ms)
+Completed 200 OK in 301ms (Views: 298.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:39:11 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:39:52 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (8.5ms)
+Completed 200 OK in 285ms (Views: 282.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:39:53 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:40:01 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (9.3ms)
+Completed 200 OK in 313ms (Views: 310.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:40:01 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:40:02 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:40:02 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:40:02 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:42:54 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (3.1ms)
+Completed 200 OK in 293ms (Views: 290.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:42:54 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:46:11 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (8.1ms)
+Completed 200 OK in 2979ms (Views: 2976.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:46:14 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:46:54 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (11.2ms)
+Completed 200 OK in 264ms (Views: 260.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:46:54 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:46:54 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:46:55 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:47:08 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (7.6ms)
+Completed 200 OK in 263ms (Views: 260.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:47:08 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:47:32 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (11.0ms)
+Completed 200 OK in 355ms (Views: 353.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:47:32 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:47:33 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:47:44 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (12.1ms)
+Completed 200 OK in 245ms (Views: 242.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:47:44 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:47:55 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (11.7ms)
+Completed 200 OK in 331ms (Views: 328.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:47:56 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:47:59 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (3.0ms)
+Completed 200 OK in 260ms (Views: 257.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:47:59 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:48:00 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:48:16 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (4.5ms)
+Completed 200 OK in 273ms (Views: 270.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:48:16 +0000
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:48:28 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:49:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from add_active_record_callbacks at /Users/grahambarry/.rvm/gems/ruby-2.1.5/bundler/gems/paperclip-7eec87bf99e2/lib/paperclip/has_attached_file.rb:95)
+  [1m[35mUse Load (0.2ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (6.3ms)
+  Rendered layouts/_header.html.haml (12.0ms)
+Completed 200 OK in 542ms (Views: 476.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:49:38 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:49:41 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (2.8ms)
+Completed 200 OK in 340ms (Views: 337.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:49:41 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:49:42 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:52:12 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.7ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (1.2ms)
+  Rendered layouts/_header.html.haml (3.1ms)
+Completed 200 OK in 2919ms (Views: 2914.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:52:15 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (1.0ms)
+  Rendered layouts/_header.html.haml (2.5ms)
+Completed 200 OK in 243ms (Views: 239.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:52:15 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:53:08 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (5.5ms)
+Completed 200 OK in 2596ms (Views: 2592.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:53:11 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:53:38 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.8ms)
+  Rendered layouts/_header.html.haml (2.7ms)
+Completed 200 OK in 2622ms (Views: 2619.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:53:41 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:54:26 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (1.0ms)
+  Rendered layouts/_header.html.haml (2.7ms)
+Completed 200 OK in 273ms (Views: 269.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:54:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:54:27 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:55:18 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (13.0ms)
+Completed 200 OK in 293ms (Views: 290.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:55:18 +0000
+
+
+Started GET "/" for ::1 at 2015-11-22 20:55:26 +0000
+Processing by PinsController#index as HTML
+  [1m[35mUse Load (0.1ms)[0m  SELECT  "uses".* FROM "uses" WHERE "uses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 9 OFFSET 0[0m
+  Rendered pins/index.html.haml within layouts/application (0.7ms)
+  Rendered layouts/_header.html.haml (4.2ms)
+Completed 200 OK in 284ms (Views: 280.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/account_activations.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/microposts.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/picture_frames.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/pins.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/password_resets.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/scaffolds.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/screen.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/sessions.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/uses.self.css?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/jquery.ui.widget.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/z.jquery.fileupload.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/alert.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/button.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/tab.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/transition.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/modal.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/popover.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/masonry/jquery.masonry.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/account_activations.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/microposts.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/password_resets.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/picture_frames.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/pins.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/sessions.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/uses.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/Art-Rising-Logo-sml.png" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for ::1 at 2015-11-22 20:55:26 +0000
+
+
+Started GET "/assets/Art-Rising-Nav-Bg.jpg" for ::1 at 2015-11-22 20:55:26 +0000
