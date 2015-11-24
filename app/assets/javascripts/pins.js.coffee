@@ -13,6 +13,7 @@ $ ->
     $('#pictureframes').masonry
       itemSelector: '.box'
       isFitWidth: true
+      percentPosition: true
 
 $ ->
   if $('#infinite-scrolling').size() > 0
