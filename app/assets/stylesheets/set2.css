@@ -2,7 +2,7 @@
 	position: relative;
 	clear: both;
 	margin: 0 auto;
-	padding: 1em 0 4em;
+
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
@@ -13,12 +13,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	height: auto;
+
+
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -346,7 +342,7 @@ figure.effect-winston figcaption::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(/assets/triangle.svg) no-repeat center center;
+	background: url(/assets/triangle7.svg) repeat center center;
 	background-size: 100% 100%;
 	content: '';
 	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
@@ -629,10 +625,12 @@ figure.effect-phoebe figcaption::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url(/assets/triangle2.svg) no-repeat center center;
-	background-size: 100% 100%;
+	width: 115%;
+	height: 115%;
+	background: url(/assets/triangle2.svg) repeat center center;
+	background-size: 110% 110%;
+
+  background-repeat: repeat;
 	content: '';
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -1269,7 +1267,6 @@ figure.effect-duke:hover p {
 	.grid figure {
 		display: inline-block;
 		float: none;
-		margin: 10px auto;
 		width: 100%;
 	}
 }

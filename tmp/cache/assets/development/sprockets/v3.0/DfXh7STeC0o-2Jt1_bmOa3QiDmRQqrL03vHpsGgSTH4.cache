@@ -1,0 +1,24 @@
+I"	(function() {
+  $(function() {
+    var $flexcontainer;
+    $flexcontainer = $("#flexcontainer");
+    return $flexcontainer.imagesLoaded(function() {
+      return $flexcontainer.masonry({
+        itemSelector: ".item",
+        columnWidth: ".grid-sizer"
+      });
+    });
+  });
+
+  $(function() {
+    return $('#pictureframes').imagesLoaded(function() {
+      return $('#pictureframes').masonry({
+        itemSelector: '.box',
+        isFitWidth: true,
+        percentPosition: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

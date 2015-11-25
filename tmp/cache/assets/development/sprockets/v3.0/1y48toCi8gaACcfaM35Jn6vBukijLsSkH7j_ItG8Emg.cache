@@ -1,0 +1,36 @@
+I"ù(function() {
+  $(function() {
+    var $container1;
+    $container1 = $("#container1");
+    $container1.imagesLoaded(function() {
+      return $container1.masonry({
+        itemSelector: ".item",
+        columnWidth: ".item",
+        gutter: 10
+      });
+    });
+    return $container1.infinitescroll({
+      navSelector: ".pagination",
+      nextSelector: ".pagination a",
+      itemSelector: ".item",
+      loading: {
+        finishedMsg: "<p style=\"background: #82d63e; margin-bottom: 20px; padding: 5px; border-radius: 10px; color: #fff; font-weight: bold;\">that's all the content</p>",
+        img: "http://i.imgur.com/C1U8WRZ.gif"
+      }
+    }, function(newElements) {
+      var $newElems;
+      $newElems = $(newElements).css({
+        opacity: 0
+      });
+      $newElems.imagesLoaded(function() {
+        $newElems.animate({
+          opacity: 1
+        });
+        return $container1.masonry("appended", $newElems, true);
+      });
+      return $("abbr.timeago").timeago();
+    });
+  });
+
+}).call(this);
+:ET

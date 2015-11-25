@@ -4,10 +4,11 @@
 //= require jquery
 
 $ ->
-  $('#pins').imagesLoaded ->
-    $('#pins').masonry
-      itemSelector: '.box'
-      isFitWidth: true
+  $flexcontainer = $("#flexcontainer")
+  $flexcontainer.imagesLoaded ->
+    $flexcontainer.masonry
+      itemSelector: ".item"
+      columnWidth: ".grid-sizer"
 $ ->
   $('#pictureframes').imagesLoaded ->
     $('#pictureframes').masonry
@@ -20,14 +21,22 @@ $ ->
     $(window).on 'scroll', ->
       more_pins_url = $('.pagination a[rel=next]').attr('href')
       if more_pins_url && $(window).scrollTop() > $(document).height() - $(window).height() - 60
-          $('.pagination').html("")
+          $('.pagination').html('<img src="/assets/ajax-loader.gif" alt="Loading..." title="Loading..." />')
+          $.getScript more_pins_url
           $.ajax
             url: more_pins_url
             success: (data) ->
-              $("#pins").append(data)
+              $("#flexcontainer").append(data)
       if !more_pins_url
         $('.pagination').html("")
      return
+    return
 $ ->
-  $('.tn img').on('click')
-  $("#mainpic#frame-flipper img").attr('src', $(this).attr('src'));
+  $('.tn img').on 'click'
+  $('#mainpic#frame-flipper img').attr 'src', $(this).attr('src')
+
+
+
+
+
+

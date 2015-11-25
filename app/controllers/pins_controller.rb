@@ -5,16 +5,16 @@ class PinsController < ApplicationController
 
   
   def index
-    @pins = Pin.paginate(page: params[:page], per_page: 6).order("created_at DESC")
+    @pins = Pin.paginate(page: params[:page], per_page: 16).order("created_at DESC")
 	    respond_to do |format|
 	    format.html
 	    format.js # add this line for your js template
 
   if params[:search]
-    @pins = Pin.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 9)
+    @pins = Pin.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 16)
 
   else
-    @pins = Pin.paginate(page: params[:page], per_page: 9).order("created_at DESC")
+    @pins = Pin.paginate(page: params[:page], per_page: 16).order("created_at DESC")
     @microposts = current_use.microposts.build if logged_in?
   end
 end

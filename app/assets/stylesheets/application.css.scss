@@ -20,24 +20,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html {
+    overflow-y: scroll;
+}
 .navbar-custom {
 	background-image: url("Art-Rising-Nav-Bg.jpg");
 	  background-repeat:no-repeat;
     background-size:cover;
-}
 
+}
+.navbar-brand img{
+  margin-top:-5px;
+    margin-left:-1px;
+}
 
 body {
 	margin: 0; 
 	background: #E9E9E9;
 		background-image: url("/assets/ArtRising-Bg-Gal.jpg");
-	  background-repeat:no-repeat;
+
     background-size:cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
-	text-decoration: none;
 }
 
 nav {
@@ -268,9 +274,11 @@ input {
 .flexy { 
   padding: 0;
   font-size: 0;
+
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   -ms-flex-direction: column;
+
   -webkit-flex-flow: row wrap; 
   flex-flow: row wrap; 
   display: -webkit-box;
@@ -287,8 +295,82 @@ input {
   width: 100%; 
   height: auto; 
 }
-@media screen and (max-width: 400px) {
-  .flexy div { margin: 0; }
-  .flexy { padding: 0; }
-  
+html {
+    overflow-y: scroll;
+}
+
+
+.item {
+    float: left;
+    position: relative;
+    line-height: 1em;
+
+}
+
+
+.grid-sizer { width: 33.333%; }
+.item img{ width: 100%;}
+.item { width: 33.333%; }
+
+
+@media screen and (max-width: 1224px) {
+  /* 10 columns for larger screens */
+  .grid-sizer { width: 33.33%; }
+  .item { width: 33.33%; }
+}
+
+@media screen and (max-width: 720px) {
+  /* 10 columns for larger screens */
+  .grid-sizer { width: 50%; }
+  .item { width: 50%; }
+}
+
+@media screen and (max-width: 480px) {
+  /* 10 columns for larger screens */
+  .grid-sizer { width: 100%; }
+  .item { width: 100%; }
+}
+
+.image{
+    max-width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.image:after {
+    clear:both;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+.overlay .title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.overlay .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.80);
+    width: 100%;
+    margin: 0;
+}
+
+.overlay .description p {
+    margin: 20px;
+}
+
+.item:hover .overlay {
+    display: block;
 }
