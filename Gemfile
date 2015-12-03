@@ -25,6 +25,7 @@ gem 'simple_form'
 gem 'simple_search', '~> 0.1.1'
 gem 'devise', '~> 3.4.1'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'turbolinks'
 gem 'jbuilder'
 gem "paperclip", git: "https://github.com/thoughtbot/paperclip.git", branch: "master"

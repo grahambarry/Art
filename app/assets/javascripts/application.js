@@ -16,7 +16,7 @@
 //= require z.jquery.fileupload
 //= require bootstrap-sprockets
 //= require masonry/jquery.masonry
-//= require turbolinks
+//= require jquery.turbolinks
 //= require_tree .
 
 $(function() {
@@ -72,5 +72,7 @@ $(function() {
   });
 });
 console.log("done");
+
+
 
 

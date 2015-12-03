@@ -1,16 +1,25 @@
 class AspectValidator < ActiveModel::EachValidator
 
 
-def validate
-	      dimensions = Paperclip::Geometry.from_file(value.queued_for_write[:original].path)
+  def get_the_aspect_frame()
+          dimensions = Paperclip::Geometry.from_file(image.queued_for_write[:original].path)
 
-          if dimensions.width > dimensions.height
-@myAspect = 7
-else
-	@myAspect = 8
-end
-return
-true
-  end
-end
+      if
+      (dimensions.width / dimensions.height >= 0.9) && (dimensions.width / dimensions.height <= 1.2)
+
+        self.update_column(:aspect, 3)
+
+elsif
+        dimensions.vertical?
+
+        self.update_column(:aspect, 2)
+
+      else
+                 dimensions.horizontal?
+
+        self.update_column(:aspect, 1)
+
+
+      end
+    end
 

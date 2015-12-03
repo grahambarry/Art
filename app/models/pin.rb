@@ -2,12 +2,13 @@ class Pin < ActiveRecord::Base
 
   acts_as_votable
 	belongs_to :use
+  has_many :microposts
 
 # This is where you set what imagemagick will resize your variants to
 	has_attached_file :image, :styles => { :large => "960x960>", :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
   validates :image, :attachment_presence => true
-  validates :image, dimensions: { width: 700, height: 500 }
+  #validates :image, dimensions: { width: 700, height: 500 }
 after_create :get_the_aspect
 
   
@@ -27,10 +28,10 @@ Pin.all
 end
 
   def get_the_aspect()
-          dimensions = Paperclip::Geometry.from_file(image.queued_for_write[:original].path)
+      dimensions = Paperclip::Geometry.from_file(image.queued_for_write[:original].path)
 
       if
-      dimensions.width / dimensions.height >= 0.8 && dimensions.width / dimensions.height <= 1.2
+      dimensions.width / dimensions.height >= 0.85 && dimensions.width / dimensions.height <= 1.25
 
         self.update_column(:aspect, 3)
 
@@ -40,7 +41,7 @@ elsif
         self.update_column(:aspect, 2)
 
       else
-                 dimensions.horizontal?
+                dimensions.horizontal?
 
         self.update_column(:aspect, 1)
 

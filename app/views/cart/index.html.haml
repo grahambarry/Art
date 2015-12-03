@@ -1,0 +1,246 @@
+%body.boxed.bg8
+  #wrapper
+    #top-bar
+      .container
+        / Logo
+        .four.columns
+         
+        .twelve.columns
+          #additional-menu
+            %ul
+              %li
+                %a{:href => "shopping-cart.html"} Shopping Cart
+              %li
+                %a{:href => "wishlist.html"}
+                  WishList
+                  %span (2)
+              %li
+                %a{:href => "checkout-billing-details.html"} Checkout
+              %li
+                %a{:href => "my-account.html"} My Account
+        / Shopping Cart
+        .twelve.columns
+          #cart
+            / Button
+            .cart-btn
+              %a.button.adc{:href => "#"} $178.00
+            .cart-list
+              .arrow
+              .cart-amount
+                %span 2 items in the shopping cart
+              %ul
+                %li
+                  %a{:href => "#"}
+                    %img{:alt => "", :src => "/assets/small_product_list_08.jpg"}/
+                  %a{:href => "#"} Converse All Star Trainers
+                  %span 1 x $79.00
+                  .clearfix
+                %li
+                  %a{:href => "#"}
+                    %img{:alt => "", :src => "/assets/small_product_list_09.jpg"}/
+                  %a{:href => "#"}
+                    Tommy Hilfiger
+                    %br/
+                    Shirt Beat
+                  %span 1 x $99.00
+                  .clearfix
+              .cart-buttons.button
+                %a.view-cart{:href => "shopping-cart.html"}
+                  %span{"data-hover" => "View Cart"}
+                    %span View Cart
+                %a.checkout{:href => "checkout-billing-details.html"}
+                  %span{"data-hover" => "Checkout"} Checkout
+              .clearfix
+          / Search
+          %nav.top-search
+            %form{:action => "#", :method => "get"}
+              %button
+                %i.fa.fa-search
+              %input.search-field{:placeholder => "Search", :type => "text", :value => ""}/
+
+      /
+        Titlebar
+        \==================================================
+
+
+
+      %section.titlebar
+        .container
+          .sixteen.columns
+            %h2 Shopping Cart
+            - if @cart.empty?
+              %p Your Cart is empty.
+            - total = 0
+            %nav#breadcrumbs
+              %ul
+                %li
+                  %a{:href => root_path} Home
+                %li Shopping Cart
+      .container.cart
+        .sixteen.columns
+          / Cart
+          %table.cart-table.responsive-table
+            %tr
+              %th Item
+              %th Description
+              %th Price
+              %th Quantity
+              %th Total
+              %th
+
+            - @cart.each do | id, quantity |
+              - @pin = Pin.find_by_id(id)
+
+              %tr
+                %td
+                  .image
+                    = link_to image_tag @pin.image.url(:thumb)
+                %td.cart-title= link_to @pin.title, @pin
+                %td= number_to_currency(@pin.price)
+                %td
+                  %form{:action => "#"}
+                    .qtyminus
+                    %input.qty{:name => "quantity", :type => "text", :value => quantity}/
+                    .qtyplus
+                %td.cart-total= number_to_currency(quantity * @pin.price, :unit => "€") 
+                - total += quantity * @pin.price
+                %td
+                  %a.cart-remove{:href => "#"}
+
+          / Apply Coupon Code / Buttons
+          %table.cart-table.bottom
+            %tr
+              %th
+                %form.apply-coupon{:action => "#", :method => "get"}
+                  %input.search-field{:placeholder => "Coupon Code", :type => "text", :value => ""}/
+                  %a.button.gray{:href => "#"} Apply Coupon
+                .cart-btns
+                  %a.button.color.cart-btns.proceed{:href => "checkout-billing-details.html"} Proceed to Checkout
+                  %a.button.gray.cart-btns{:href => "#"} Update Cart
+        / Cart Totals
+        .eight.columns.cart-totals
+          %h3.headline Cart Totals
+          %span.line
+          .clearfix
+          %table.cart-table.margin-top-5
+            %tr
+              %th Cart Subtotal
+              %td
+                %strong= number_to_currency(total, :unit => "€")
+            %tr
+              %th Shipping and Handling
+              %td Free Shipping
+            %tr
+              %th Order Total
+              %td
+                %strong= number_to_currency(total, :unit => "€")
+          %br
+            %tr
+              %th
+              %td= link_to 'Continue Shopping', :controller => :pins
+          
+            / <a href="#" class="calculate-shipping"><i class="fa fa-arrow-circle-down"></i> Calculate Shipping</a>
+      .margin-top-40
+      /
+        Footer
+        \==================================================
+      #footer
+        / Container
+        .container
+          .four.columns
+            %img.margin-top-10{:alt => "", :src => "/assets/Art-Rising-Logo-sml.png"}/
+            %p.margin-top-15 Nulla facilisis feugiat magna, ut molestie metus hendrerit vitae. Vivamus tristique lectus at varius rutrum. Integer lobortis mauris non consectetur eleifend.
+          .four.columns
+            / Headline
+            %h3.headline.footer Customer Service
+            %span.line
+            .clearfix
+            %ul.footer-links
+              %li
+                %a{:href => "#"} Order Status
+              %li
+                %a{:href => "#"} Payment Methods
+              %li
+                %a{:href => "#"} Delivery & Returns
+              %li
+                %a{:href => "#"} Privacy Policy
+              %li
+                %a{:href => "#"} Terms & Conditions
+          .four.columns
+            / Headline
+            %h3.headline.footer My Account
+            %span.line
+            .clearfix
+            %ul.footer-links
+              %li
+                %a{:href => "#"} My Account
+              %li
+                %a{:href => "#"} Order History
+              %li
+                %a{:href => "#"} Wish List
+          .four.columns
+            / Headline
+            %h3.headline.footer Newsletter
+            %span.line
+            .clearfix
+            %p Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and more.
+            %form{:action => "#", :method => "get"}
+              %button.newsletter-btn{:type => "submit"} Join
+              %input.newsletter{:placeholder => "mail@example.com", :type => "text", :value => ""}/
+        / Container / End
+      / Footer / End
+      / Footer Bottom / Start
+      #footer-bottom
+        / Container
+        .container
+          .eight.columns
+            © Copyright 2014 by
+            = succeed "." do
+              %a{:href => "#"} ArtRising
+            All Rights Reserved.
+          .eight.columns
+            %ul.payment-icons
+              %li
+                %img{:alt => "", :src => "/assets/visa.png"}/
+              %li
+                %img{:alt => "", :src => "/assets/mastercard.png"}/
+              %li
+                %img{:alt => "", :src => "/assets/skrill.png"}/
+              %li
+                %img{:alt => "", :src => "/assets/moneybookers.png"}/
+              %li
+                %img{:alt => "", :src => "/assets/paypal.png"}/
+        / Container / End
+      / Footer Bottom / End
+      / Back To Top Button
+      #backtotop
+        %a{:href => "#"}
+
+  
+
+
+%script{:src => "http://code.jquery.com/jquery-1.11.0.min.js"}
+%script{:src => "http://code.jquery.com/jquery-migrate-1.2.1.min.js"}
+%script{:src => "/assets/jquery.jpanelmenu.js"}
+%script{:src => "/assets/jquery.themepunch.plugins.min.js"}
+%script{:src => "/assets/jquery.themepunch.revolution.min.js"}
+%script{:src => "/assets/jquery.themepunch.showbizpro.min.js"}
+%script{:src => "/assets/jquery.magnific-popup.min.js"}
+%script{:src => "/assets/hoverIntent.js"}
+%script{:src => "/assets/superfish.js"}
+%script{:src => "/assets/jquery.pureparallax.js"}
+%script{:src => "/assets/jquery.pricefilter.js"}
+%script{:src => "/assets/jquery.selectric.min.js"}
+%script{:src => "/assets/jquery.royalslider.min.js"}
+%script{:src => "/assets/SelectBox.js"}
+%script{:src => "/assets/modernizr.custom.js"}
+%script{:src => "/assets/waypoints.min.js"}
+%script{:src => "/assets/jquery.flexslider-min.js"}
+%script{:src => "/assets/jquery.counterup.min.js"}
+%script{:src => "/assets/jquery.tooltips.min.js"}
+%script{:src => "/assets/jquery.isotope.min.js"}
+%script{:src => "/assets/puregrid.js"}
+%script{:src => "/assets/stacktable.js"}
+%script{:src => "/assets/custom.js"}
+
+

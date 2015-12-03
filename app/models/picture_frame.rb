@@ -13,17 +13,17 @@ end
       if
       (dimensions.width / dimensions.height >= 0.9) && (dimensions.width / dimensions.height <= 1.2)
 
-        self.update_column(:aspect_frame, 3)
+        self.update_column(:aspect, 3)
 
 elsif
         dimensions.vertical?
 
-        self.update_column(:aspect_frame, 2)
+        self.update_column(:aspect, 2)
 
       else
                  dimensions.horizontal?
 
-        self.update_column(:aspect_frame, 1)
+        self.update_column(:aspect, 1)
 
 
       end

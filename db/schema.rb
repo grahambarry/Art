@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151121204941) do
+ActiveRecord::Schema.define(version: 20151203191124) do
 
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer  "priority",   default: 0, null: false
@@ -34,8 +34,11 @@ ActiveRecord::Schema.define(version: 20151121204941) do
     t.integer  "use_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "pin_id"
   end
 
+  add_index "microposts", ["pin_id", "created_at"], name: "index_microposts_on_pin_id_and_created_at"
+  add_index "microposts", ["pin_id"], name: "index_microposts_on_pin_id"
   add_index "microposts", ["use_id", "created_at"], name: "index_microposts_on_use_id_and_created_at"
   add_index "microposts", ["use_id"], name: "index_microposts_on_use_id"
 
@@ -49,7 +52,7 @@ ActiveRecord::Schema.define(version: 20151121204941) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.text     "image_meta"
-    t.string   "aspect_frame"
+    t.string   "aspect"
     t.integer  "top"
     t.integer  "left"
   end
@@ -83,6 +86,7 @@ ActiveRecord::Schema.define(version: 20151121204941) do
     t.integer  "use_id"
     t.integer  "aspect"
     t.text     "image_meta"
+    t.decimal  "price"
   end
 
   add_index "pins", ["use_id"], name: "index_pins_on_use_id"

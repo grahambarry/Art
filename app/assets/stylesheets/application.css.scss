@@ -14,14 +14,30 @@
  *= require_self
  *= require_tree .
  */
+
+ @import url(https://fonts.googleapis.com/css?family=Poiret+One|Roboto|Roboto+Mono|Play|Shadows+Into+Light);
+
+
 * {
   border-radius: 0 !important;
+
 }
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  }
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
+}
+.navbar-rights {
+ 
+  height:45px;
 }
 .navbar-custom {
 	background-image: url("/assets/Art-Rising-Nav-Bg.jpg");
@@ -36,21 +52,26 @@ html {
 
 body {
 	margin: 0; 
-	background: #E9E9E9;
-		background-image: url("/assets/ArtRising-Bg-Gal.jpg");
 
-    background-size:cover;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 100;
 }
+    h1 {
+      font-size: 22px;
+      margin: 0;
+font-family: 'Poiret One', cursive;font-size: 15px;
+line-height: 1.47em;
+font-weight: 400;
+font-style: normal;
+
+
+    }
+
 
 nav {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	.navbar-brand {
 		a {
-			color: #BD1E23;
+      color:#fff;
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
@@ -62,12 +83,7 @@ nav {
 #pins {
   margin: 0 auto;
   width: 100%;
-  .box {
-	  margin: 0px;
-	  width: 350px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 7px;
-	  text-align: center;
+
 	  img {
 	  	max-width: 100%;
 	  	height: auto;
@@ -76,9 +92,44 @@ nav {
 	  	font-size: 22px;
 	  	margin: 0;
 	  	padding: 25px 10px;
-	  	a {
-				color: #474747;
-	  	}
+
+	  }
+	  .use {
+	  	font-size: 12px;
+	  	border-top: 1px solid #EAEAEA;
+			padding: 15px;
+			margin: 0;
+	  }
+ 
+	}
+    .price {
+      font-size: 36px;
+      border-top: 1px solid #474747;
+      padding: 15px;
+      margin: 0;
+    }
+
+
+
+#pictureframes {
+  margin: 0 auto;
+  width: 100%;
+  .box {
+	  margin: 10px;
+    padding:10px;
+	  width: 100px;
+	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	  border-radius: 7px;
+
+	  img {
+	  	max-width: 100%;
+	  	height: auto;
+	  }
+	  h2 {
+	  	font-size: 22px;
+	  	margin: 0;
+	  	padding: 25px 10px;
+
 	  }
 	  .use {
 	  	font-size: 12px;
@@ -89,35 +140,15 @@ nav {
 	}
 }
 
-#pictureframes {
-  margin: 0 auto;
-  width: 100%;
-  .box {
-	  margin: 10px;
-	  width: 100px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 7px;
-	  text-align: center;
-	  img {
-	  	max-width: 100%;
-	  	height: auto;
-	  }
-	  h2 {
-	  	font-size: 22px;
-	  	margin: 0;
-	  	padding: 25px 10px;
-	  	a {
-				color: #474747;
-	  	}
-	  }
-	  .use {
-	  	font-size: 12px;
-	  	border-top: 1px solid #EAEAEA;
-			padding: 15px;
-			margin: 0;
-	  }
-	}
-}
+
+    .use {
+      font-size: 12px;
+      border-top: 1px solid #EAEAEA;
+      padding: 15px;
+      margin: 0;
+    }
+  
+
 
 
 
@@ -233,7 +264,7 @@ aside {
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
-  margin-bottom: 15px;
+
   @include box_sizing;
 }
 
@@ -245,7 +276,7 @@ input {
   color: red;
   ul {
     color: red;
-    margin: 0 0 30px 0;
+    margin: 0 0 0 0;
   }
 }
 
@@ -268,8 +299,12 @@ input {
   width: auto;
   margin-left: 0;
 }
-.mymargin{margin-top:50px;}
-.nav{height:51px;}
+.mymargin{margin-top:87px;}
+.nav{
+}
+.container-fluid{
+
+}
 
 .flexy { 
   padding: 0;
@@ -310,7 +345,8 @@ html {
 
 .grid-sizer { width: 33.333%; }
 .item img{ width: 100%;}
-.item { width: 33.333%; }
+.item { width: 33.333%; 
+padding:1px;}
 
 
 @media screen and (max-width: 1224px) {
@@ -331,46 +367,6 @@ html {
   .item { width: 100%; }
 }
 
-.image{
-    max-width: 100%;
-    margin: 0;
-    display: block;
-}
-
-.image:after {
-    clear:both;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    color: #fff;
-    display: none;
-}
-
-.overlay .title {
-    text-align: center;
-    font-size: 30px;
-}
-
-.overlay .description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.80);
-    width: 100%;
-    margin: 0;
-}
-
-.overlay .description p {
-    margin: 20px;
-}
-
-.item:hover .overlay {
-    display: block;
+.alert{
+  background-color: #fff;
 }

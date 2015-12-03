@@ -1,0 +1,8 @@
+
+.index_frame_container
+	.rsSlide
+		= image_tag @pin.image.url(:large), :class => "style_image" + @pin.aspect.to_s, :style => "top: #{@picture_frames = PictureFrame.where(aspect: @pin.aspect.to_s).limit(1).take!.top}" + '%; ' "left: #{@picture_frames = PictureFrame.where(aspect: @pin.aspect.to_s).limit(1).take!.left}" + '%;' "width: #{101 - @picture_frames = PictureFrame.where(aspect: @pin.aspect.to_s).limit(1).take!.left * 2}" + '%;' "height: #{101 - @picture_frames = PictureFrame.where(aspect: @pin.aspect.to_s).limit(1).take!.top * 2}" + '%;', "data-rsTmb" => "/assets/product_item_thumb_02a.png"
+		= image_tag @picture_frames = PictureFrame.where(aspect: @pin.aspect.to_s).limit(1).take!.image.url(:large), :class => "style_image_frame" + @pin.aspect.to_s, id: 'frame-flipper'
+%img.rsImg{:alt => "", "data-rsTmb" => "/assets/product_item_thumb_03a.png", :src => "/assets/product_item_02a.jpg"}/
+
+

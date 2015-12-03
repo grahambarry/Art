@@ -5,16 +5,16 @@ class PinsController < ApplicationController
 
   
   def index
-    @pins = Pin.paginate(page: params[:page], per_page: 16).order("created_at DESC")
+    @pins = Pin.paginate(page: params[:page], per_page: 9).order("created_at DESC")
 	    respond_to do |format|
 	    format.html
 	    format.js # add this line for your js template
 
   if params[:search]
-    @pins = Pin.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 16)
+    @pins = Pin.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 9)
 
   else
-    @pins = Pin.paginate(page: params[:page], per_page: 16).order("created_at DESC")
+    @pins = Pin.paginate(page: params[:page], per_page: 9).order("created_at DESC")
     @microposts = current_use.microposts.build if logged_in?
   end
 end
@@ -46,7 +46,10 @@ end
 		@pins = Pin.all
 @picture_frames = PictureFrame.all
     @microposts = current_use.microposts.build if logged_in?
+
+
 	end
+
 
 	def new
 		@pin = current_use.pins.build
@@ -81,7 +84,11 @@ end
 
 	def destroy
 		@pin.destroy
-		redirect_to root_path
+		if @pin.destroy
+			redirect_to root_path, notice: "Done"
+		else
+			redirect_to root_path, notice: "Please Try Again"
+		end
 	end
 
 	def upvote
@@ -98,7 +105,7 @@ end
 private
 
 def pin_params
-		params.require(:pin).permit(:title, :description, :image, :aspect, :image_meta)
+		params.require(:pin).permit(:title, :description, :image, :aspect, :image_meta, :price)
 end
 	
 

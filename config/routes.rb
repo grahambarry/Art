@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  root "pins#index"
+  get 'cart/index'
+
+
   resources :picture_frames
   get 'picture_frames/portrait'
 
@@ -9,6 +13,12 @@ Rails.application.routes.draw do
   get 'sessions/new'
 
   get 'uses/new'
+
+  get '/cart' => 'cart#index'
+  
+  get '/cart/clear' => 'cart#clearCart'
+  
+  get '/cart/:id' => 'cart#add'
 
  resources :pins
 
@@ -21,7 +31,7 @@ Rails.application.routes.draw do
   	end
   end
 
-  root "pins#index"
+  
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'

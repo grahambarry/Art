@@ -9,6 +9,9 @@ $ ->
     $flexcontainer.masonry
       itemSelector: ".item"
       columnWidth: ".grid-sizer"
+
+
+       
 $ ->
   $('#pictureframes').imagesLoaded ->
     $('#pictureframes').masonry

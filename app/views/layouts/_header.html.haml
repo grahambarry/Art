@@ -1,4 +1,59 @@
-%header.nav.navbar.navbar-default.navbar-inverse.navbar-custom.navbar-fixed-top
+/%header.nav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+%header.nav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+  #top-bar
+    .container
+
+      .ten.columns
+        %ul.top-bar-menu
+          %li.phone-email-top
+            %i.fa.fa-phone
+            ++353 (0)85 756 5416
+          %li
+            %i.fa.fa-envelope
+            %a{:href => "contact_path"} art@artrising.ie
+          %li
+            .top-bar-dropdown
+              %span English
+              %ul.options
+                %li
+                  .arrow
+                    %li
+                      %a{:href => "#"} English
+                    %li
+                      %a{:href => "#"} Polish
+                    %li
+                      %a{:href => "#"} Deutsch
+                %li
+                  .top-bar-dropdown
+                    %span USD
+                    %ul.options
+                      %li
+                        .arrow
+                      %li
+                        %a{:href => "#"} USD
+                      %li
+                        %a{:href => "#"} PLN
+                      %li
+                        %a{:href => "#"} EUR
+
+            .six.columns
+              %ul.social-icons
+                %li
+                  %a.facebook{:href => "http://www.facebook.com/artrising"}
+                    %i.icon-facebook
+                %li
+                  %a.twitter{:href => "#"}
+                    %i.icon-twitter
+                %li
+                  %a.youtube{:href => "#"}
+                    %i.icon-youtube
+                %li
+                  %a.gplus{:href => "#"}
+                    %i.icon-gplus
+                %li
+                  %a.pinterest{:href => "#"}
+                    %i.icon-pinterest
+
   .container-fluid
     / Brand and toggle get grouped for better mobile display
     .navbar-header
@@ -18,11 +73,15 @@
             %span.sr-only (current)
       %ul.nav.navbar-nav.navbar-right
         %li.form.navbar-form.navbar{:role => "search" }
-          .input-group.mystyle
-            %input.form-control{:placeholder => "Art, Artists, Photography, Places", :type => "text", :method => "get", id: "search-form"}
-            %span.input-group-btn
-              %button.btn.btn-default{"aria-label" => "Left Align", :type => "button", name: nil,}
-                %span.glyphicon.glyphicon-search{"aria-hidden" => "true"}
+          .input-group
+            %nav.top-search
+              %form.navbar-rights{:action => "#", :method => "get"}
+                %button
+                  %i.fa.fa-search
+                %input.search-field{:placeholder => "Art, Artists, Photography, Places", :type => "text", :value => ""}/
+
+
+             
 
 
         - if logged_in?
@@ -34,16 +93,13 @@
               %li= link_to "Profile", current_use
               %li= link_to "Settings", edit_use_path(current_use)
               %li= link_to "Add Art", new_pin_path
-              %li.divider
+
               %li
                 = link_to "Log out", logout_path, method: "delete"
         - else
-          %li= link_to "Log in", login_path
-          %ul.nav.navbar-nav.navbar.pull-right
+            
+          %ul.nav.navbar-nav
+            %li= link_to "Log in", login_path
             %li
-              %a{:href => login_path} Sign In
-            %li
-              %p.navbar-btn
-                %a.btn.btn-primary.btn-sm{:href => signup_path} Sign Up
-          / /.navbar-collapse
-        / /.container-fluid
+              %a{:href => signup_path} Sign Up
+
