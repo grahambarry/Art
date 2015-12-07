@@ -66,7 +66,7 @@
                   .image
                     = link_to image_tag @pin.image.url(:thumb)
                 %td.cart-title= link_to @pin.title, @pin
-                %td= number_to_currency(@pin.price)
+                %td= number_to_currency(@pin.price, :unit => "€")
                 %td
                   %form{:action => "#"}
                     .qtyminus
