@@ -82,10 +82,10 @@ input {
   height: auto !important;
 }
 .collapsecustom{
-  background-color: #F5F5F5;
+  background-color: #F5F5F5 !important;
 }
-.navbar-collapse collapse in{
-  background-color: #F5F5F5;
+.collapsecustom2 a{
+  background-color: #89967F !important;
 }
 .navwrap {
     box-sizing:content;
@@ -278,7 +278,7 @@ $gray-medium-light: #eaeaea;
   margin-top: 15px;
 }
 
-
+form-group a {color:#3ACF87 !important;}
 
 #error_explanation {
   color: red;
@@ -307,7 +307,7 @@ $gray-medium-light: #eaeaea;
   width: auto;
   margin-left: 0;
 }
-.mymargin{margin-top:87px;}
+.mymargin{margin-top:87px; height:100%}
 .nav{box-sizing: content-box
 }
 
