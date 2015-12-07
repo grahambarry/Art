@@ -14,7 +14,8 @@
  *= require_self
  *= require_tree .
  */
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
  @import url(https://fonts.googleapis.com/css?family=Poiret+One|Roboto|Roboto+Mono|Play|Shadows+Into+Light);
 
@@ -59,8 +60,7 @@ display: inline;
   font-weight: 400;
 
   }
-@import "bootstrap-sprockets";
-@import "bootstrap";
+
 
 html {
   overflow-y: scroll;
@@ -341,7 +341,7 @@ html {
 }
 
 
-.item {
+.itemx {
     float: left;
     position: relative;
     line-height: 1em;
@@ -349,28 +349,28 @@ html {
 }
 
 
-.grid-sizer { width: 33.333%; }
-.item img{ width: 100%;}
-.item { width: 33.333%; 
+.grid-sizerx { width: 33.333%; }
+.itemx img{ width: 100%;}
+.itemx { width: 33.333%; 
 padding:1px;}
 
 
 @media screen and (max-width: 1224px) {
   /* 10 columns for larger screens */
-  .grid-sizer { width: 33.33%; }
-  .item { width: 33.33%; }
+  .grid-sizerx { width: 33.33%; }
+  .itemx { width: 33.33%; }
 }
 
 @media screen and (max-width: 720px) {
   /* 10 columns for larger screens */
-  .grid-sizer { width: 50%; }
-  .item { width: 50%; }
+  .grid-sizerx { width: 50%; }
+  .itemx { width: 50%; }
 }
 
 @media screen and (max-width: 480px) {
   /* 10 columns for larger screens */
-  .grid-sizer { width: 100%; }
-  .item { width: 100%; }
+  .grid-sizerx { width: 100%; }
+  .itemx { width: 100%; }
 }
 
 .alert{
