@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.1.5'
 
-
+gem 'Cussy', '~> 1.0.1'
 gem 'rails', '~> 4.2.3'
 gem 'bcrypt', '~> 3.1.10'
 gem "figaro"
 gem "puma"
 gem 'aws-sdk-v1'
 gem 'aws-sdk', '< 2.0'
-gem 's3_direct_upload'
+#gem 's3_direct_upload'
 #gem 'aws-sdk', '~> 2'
 gem 's3_direct_upload'
 gem 'slim', '~> 3.0.6'
@@ -35,6 +35,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'will_paginate', '~> 3.0.7'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
 gem 'rmagick', '~> 2.15.0'
+gem 'searchkick', '~> 1.0', '>= 1.0.3'
 
 
 gem 'sdoc',          group: :doc

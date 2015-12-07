@@ -10,11 +10,12 @@
 							= link_to pin.title, pin
 
 						%p
-							= link_to pin.description, pin
-							%br 
-								= pin.use.name
-							%br 
-							%a{:href => "#"} View more
+
+							= link_to "|" + pin.use.name + "| ", pin
+							%br
+							= link_to "VIEW", pin
+							
+
 .col-md-4.col-md-offset-4.center			
 	#infinite-scrolling
 	= will_paginate @pins

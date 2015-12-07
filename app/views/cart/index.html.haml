@@ -9,48 +9,18 @@
           #additional-menu
             %ul
               %li
-                %a{:href => "shopping-cart.html"} Shopping Cart
+                %a{:href => "#"} Shopping Cart
               %li
-                %a{:href => "wishlist.html"}
+                %a{:href => "#"}
                   WishList
                   %span (2)
               %li
-                %a{:href => "checkout-billing-details.html"} Checkout
+                %a{:href => "#"} Checkout
               %li
-                %a{:href => "my-account.html"} My Account
+                %a= link_to "My Account", current_use 
         / Shopping Cart
         .twelve.columns
-          #cart
-            / Button
-            .cart-btn
-              %a.button.adc{:href => "#"} $178.00
-            .cart-list
-              .arrow
-              .cart-amount
-                %span 2 items in the shopping cart
-              %ul
-                %li
-                  %a{:href => "#"}
-                    %img{:alt => "", :src => "/assets/small_product_list_08.jpg"}/
-                  %a{:href => "#"} Converse All Star Trainers
-                  %span 1 x $79.00
-                  .clearfix
-                %li
-                  %a{:href => "#"}
-                    %img{:alt => "", :src => "/assets/small_product_list_09.jpg"}/
-                  %a{:href => "#"}
-                    Tommy Hilfiger
-                    %br/
-                    Shirt Beat
-                  %span 1 x $99.00
-                  .clearfix
-              .cart-buttons.button
-                %a.view-cart{:href => "shopping-cart.html"}
-                  %span{"data-hover" => "View Cart"}
-                    %span View Cart
-                %a.checkout{:href => "checkout-billing-details.html"}
-                  %span{"data-hover" => "Checkout"} Checkout
-              .clearfix
+          
           / Search
           %nav.top-search
             %form{:action => "#", :method => "get"}
@@ -219,28 +189,6 @@
   
 
 
-%script{:src => "http://code.jquery.com/jquery-1.11.0.min.js"}
-%script{:src => "http://code.jquery.com/jquery-migrate-1.2.1.min.js"}
-%script{:src => "/assets/jquery.jpanelmenu.js"}
-%script{:src => "/assets/jquery.themepunch.plugins.min.js"}
-%script{:src => "/assets/jquery.themepunch.revolution.min.js"}
-%script{:src => "/assets/jquery.themepunch.showbizpro.min.js"}
-%script{:src => "/assets/jquery.magnific-popup.min.js"}
-%script{:src => "/assets/hoverIntent.js"}
-%script{:src => "/assets/superfish.js"}
-%script{:src => "/assets/jquery.pureparallax.js"}
-%script{:src => "/assets/jquery.pricefilter.js"}
-%script{:src => "/assets/jquery.selectric.min.js"}
-%script{:src => "/assets/jquery.royalslider.min.js"}
-%script{:src => "/assets/SelectBox.js"}
-%script{:src => "/assets/modernizr.custom.js"}
-%script{:src => "/assets/waypoints.min.js"}
-%script{:src => "/assets/jquery.flexslider-min.js"}
-%script{:src => "/assets/jquery.counterup.min.js"}
-%script{:src => "/assets/jquery.tooltips.min.js"}
-%script{:src => "/assets/jquery.isotope.min.js"}
-%script{:src => "/assets/puregrid.js"}
-%script{:src => "/assets/stacktable.js"}
-%script{:src => "/assets/custom.js"}
+
 
 

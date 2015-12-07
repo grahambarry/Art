@@ -3,17 +3,16 @@ class Pin < ActiveRecord::Base
   acts_as_votable
 	belongs_to :use
   has_many :microposts
+  has_many :reviews
 
 # This is where you set what imagemagick will resize your variants to
 	has_attached_file :image, :styles => { :large => "960x960>", :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
   validates :image, :attachment_presence => true
   #validates :image, dimensions: { width: 700, height: 500 }
-after_create :get_the_aspect
+  after_create :get_the_aspect
 
   
-
-
 
 
 
@@ -26,6 +25,8 @@ Pin.where("title like ? or description like ?", query, query,)
 Pin.all
   end
 end
+
+
 
   def get_the_aspect()
       dimensions = Paperclip::Geometry.from_file(image.queued_for_write[:original].path)

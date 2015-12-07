@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   root "pins#index"
   get 'cart/index'
 
@@ -20,7 +21,12 @@ Rails.application.routes.draw do
   
   get '/cart/:id' => 'cart#add'
 
- resources :pins
+ resources :pins do
+  collection do
+    get 'search'
+  end
+  resources :reviews, except: [:show, :index, :edit]
+end
 
 
 

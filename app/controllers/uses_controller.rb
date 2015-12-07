@@ -46,10 +46,13 @@ end
     end
   end
 
-
   def edit
+    begin
     @use = Use.find(params[:id])
+    rescue => error
+flash[:info] = "Oops, something Went Wrong."
   end
+end
 
     def update
     @use = Use.find(params[:id])

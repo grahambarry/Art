@@ -181,7 +181,7 @@ ul.top-bar-menu li i {
 
 #top-bar .social-icons li a {
 	width: 36px;
-	height: 36px;
+	height: 42px;
 	margin: 0;
 	padding: 0;
 }
@@ -674,26 +674,7 @@ span.skill-title i {
 	color: #5091b2;
 }
 
-.notification strong { border: none !important; }
 
-.notification.success .close,
-.notification.error .close,
-.notification.warning .close,
-.notification.notice .close {
-	padding: 0px 9px;
-	position: absolute;
-	right: 0;
-	top: 22px;
-	display: block;
-	height: 8px;
-	width: 8px;
-	cursor: pointer;
-}
-
-.notification.success .close {background: url(/assets/alert_boxes_close_ico.png) 0 -8px no-repeat;}
-.notification.error .close {background: url(/assets/alert_boxes_close_ico.png) 0 0 no-repeat;}
-.notification.warning .close {background: url(/assets/alert_boxes_close_ico.png) 0 -16px no-repeat;}
-.notification.notice .close {background: url(/assets/alert_boxes_close_ico.png) 0 -24px no-repeat;}
 
 
 /* Counters
@@ -896,11 +877,7 @@ span.skill-title i {
 	padding: 0;
 	border: none;
 	position: relative;
-	-webkit-transition: background-color 0.2s ease-in-out;
-	-moz-transition: background-color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out;
-	-o-transition: background-color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out;
+
 }
 
 .apply-coupon a {
@@ -926,7 +903,7 @@ span.skill-title i {
 	display: block;
 	margin: 0 0 0 15px;
 	position: relative;
-	z-index: 9999;
+	z-index: 5;
 			border-bottom: 1px solid #8D84E4;
 		border-top: 1px solid #8D84E4;
 }
@@ -939,9 +916,9 @@ span.skill-title i {
 .cart-list {
 	position: absolute;
 	right: 0;
-	margin-top: 50px;
+	margin-top: 45px;
 	background: #f5f5f5;
-	z-index: 9999;
+	z-index: 6;
 	display: none;
 	width: 260px;
 }
@@ -1996,6 +1973,7 @@ a.button.color:hover { background-color: #c0c0c0; }
 	position: relative;
 	margin: 0 0 32px 0;
 	padding: 34px 0 32px;
+	height:50px;
 /*	background: url(/assets/pattern.png) ;*/
 }
 
@@ -2022,7 +2000,7 @@ a.button.color:hover { background-color: #c0c0c0; }
 	color: #606060;
 }
 
-.titlebar #breadcrumbs ul li,
+.titlebar #breadcrumbs ul li, 
 .titlebar #breadcrumbs ul li a,
 .titlebar #breadcrumbs ul li a:hover,
 .titlebar #breadcrumbs ul li:last-child a {
@@ -6002,7 +5980,7 @@ table.cart-table {
 table.cart-table th {
 
 	background-color: #f6f6f6;
-	border-bottom: 2px;
+	border-bottom: 1px;
 	border-color: #8D84E4; 
 	text-align: left;
 	padding: 10px 20px;
@@ -6365,6 +6343,8 @@ a.calculate-shipping:hover {
 	.gridslider { width: 350px; }
 	.og-expander { width: 748px; }
 	.og-grid > li { width: 236px; }
+
+	#breadcrumbs{margin-top:35px;}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -6372,6 +6352,9 @@ a.calculate-shipping:hover {
 	.og-expander,
 	.og-grid > li { width: 420px; }
 	.og-expander { left:0; }
+	.nav{background-color: #fff;}
+	.navbar-nav{background-color: #fff;}
+	#breadcrumbs{margin-top:4px;}
 }
 
 @media only screen and (max-width: 479px) {
@@ -6379,6 +6362,9 @@ a.calculate-shipping:hover {
 	.og-expander,
 	.og-grid > li { width: 300px; }
 	.og-expander {left:0;}
+		.nav{background-color: #fff;}
+	.navbar-nav{background-color: #fff;}
+	#breadcrumbs{margin-top:4px;}
 }
 
 
@@ -7091,6 +7077,7 @@ html[xmlns] .slides {display: block;}
 	.extra-padding { padding-right: 10px; }
 	.extra-padding.left { padding-left: 10px; }
 	#not-found {margin: 35px 0 60px 0;}
+
 	
 	#not-found h2 {
 		font-size: 160px;
@@ -7153,6 +7140,9 @@ html[xmlns] .slides {display: block;}
 	.og-details { display: inline-block; margin: 30px 0; padding: 0 40px; }
 	.og-grid { margin-left: -8px; }
 	.share-buttons ul li:first-child a { display: none; }
+		.nav{background-color: #fff;}
+	.navbar-nav{background-color: #fff;}
+	#breadcrumbs{margin-top:4px;}
 
 	.extra-padding,
 	.extra-padding.left { padding: 0; }
@@ -7162,7 +7152,7 @@ html[xmlns] .slides {display: block;}
 		left:55px;
 		display: block;
 		float: left;
-		top: 30px;
+		top: 37px;
 	}
 
 	#not-found {margin: 15px 0 25px 0;}
@@ -7252,7 +7242,7 @@ html[xmlns] .slides {display: block;}
 	.related .portfolio-item { margin-bottom: 20px; }
 
 	input.qty { padding: 8px 7px; }
-	.cart-btns { margin-top: 10px;}
+
 
 	.stacktable.large-only { display: none; }
 	.stacktable.small-only { display: table; }
@@ -7268,6 +7258,8 @@ html[xmlns] .slides {display: block;}
 	.top-search input { max-width: 730px; min-width: 450px; margin:50%, 50%; }
 	.apply-coupon input { width: 233px; }
 	.cart-list { width: 420px; }
+		.nav{background-color: #fff;}
+	.navbar-nav{background-color: #fff;}
 
 .checkout-content .half {
 		width: 44%;

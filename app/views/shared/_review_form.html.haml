@@ -1,0 +1,18 @@
+.comment-content
+	= form_for([@pin, @review]) do |f|
+		= render 'shared/error_messages', object: f.object
+		.d1
+			.reviews
+				#star-rating
+		.field
+		= f.text_area :comment, placeholder: "Compose new micropost..."
+
+		= f.submit "Post", class: "btn btn-primary"
+
+
+
+:javascript
+	$('#star-rating').raty({
+		path: '/assets/',
+		scoreName: 'review[rating]'
+	});

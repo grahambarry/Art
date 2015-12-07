@@ -12,7 +12,7 @@ end
       if use.activated?
         log_in use
         params[:session][:remember_me] == '1' ? remember(use) : forget(use)
-        redirect_back_or use
+        redirect_back_or root_url
       else
         message  = "Account not activated. "
         message += "Check your email for the activation link."

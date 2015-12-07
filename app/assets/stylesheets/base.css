@@ -292,29 +292,7 @@
 	color:    #999;
 	opacity: 1;
 }
-	textarea {
-		min-height: 60px; }
-	label,
-	legend {
-		display: block;
-		font-weight: bold;
-		font-size: 14px; 
-		font-weight: normal;
-		margin-bottom: 5px;}
-	input {
-		-webkit-transition: all 0.1s ease-in-out;
-		-moz-transition: all 0.1s ease-in-out;
-		-o-transition: all 0.1s ease-in-out;
-		-ms-transition: all 0.1s ease-in-out;
-		transition: all 0.1s ease-in-out;
-		 }
-	input[type="checkbox"] {
-		display: inline; }
-	label span,
-	legend span {
-		font-weight: normal;
-		font-size: 14px;
-		color: #444; }
+
 		
 
 

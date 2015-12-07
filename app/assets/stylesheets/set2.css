@@ -625,10 +625,10 @@ figure.effect-phoebe figcaption::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 115%;
-	height: 115%;
+	width: 113%;
+	height: 110%;
 	background: url(/assets/triangle2.svg) repeat center center;
-	background-size: 110% 110%;
+	background-size: 210% 210%;
 
   background-repeat: repeat;
 	content: '';
@@ -649,6 +649,7 @@ figure.effect-phoebe:hover figcaption::before {
 figure.effect-phoebe h2 {
 	margin-top: 1em;
 		color: #fff;
+		opacity: 0;
 	-webkit-transition: transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,40px,0);
@@ -656,11 +657,16 @@ figure.effect-phoebe h2 {
 }
 
 figure.effect-phoebe:hover h2 {
+	opacity: 100;
+	color:#fff;
+	font-weight: 400;
+
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 figure.effect-phoebe:hover h2 a {
 	text-decoration:none; 
+	color:#fff;
 }
 
 figure.effect-phoebe p a {

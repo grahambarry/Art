@@ -15,13 +15,43 @@
  *= require_tree .
  */
 
+
  @import url(https://fonts.googleapis.com/css?family=Poiret+One|Roboto|Roboto+Mono|Play|Shadows+Into+Light);
 
 
 * {
   border-radius: 0 !important;
+}
+.star-rating img{ height:16px;
+float:left;
+ margin: 0 auto;
+
+ display: inline;
 
 }
+#star-rating img{ height:16px;
+float:left;
+ margin: 0 auto;
+
+ display: inline;
+
+}
+
+.review_title {
+  margin: 0 0 20px 0;
+}
+.reviews {
+  padding: 15px 0;
+  border-bottom: 1px solid #EAEAEA;
+  .star-rating {
+display: inline;
+    height:16px;
+    display: inline-block;
+
+
+  }
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #fff !important;
   font-family: 'Roboto', sans-serif;
@@ -39,12 +69,43 @@ html {
  
   height:45px;
 }
-.navbar-custom {
-	background-image: url("/assets/Art-Rising-Nav-Bg.jpg");
-	  background-repeat:no-repeat;
-    background-size:cover;
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+
 
 }
+
+input {
+  height: auto !important;
+}
+.collapsecustom{
+  background-color: #F5F5F5;
+}
+.navbar-collapse collapse in{
+  background-color: #F5F5F5;
+}
+.navwrap {
+    box-sizing:content;
+    width:100%;
+    height:50px;
+    background-color: #B0B0B0;
+}
+
+#navwrap :after {
+width:100%;
+height:50px;
+opacity: 0.05;
+    position: absolute;
+    left: -2px;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 4px 2px #000000;
+    -moz-box-shadow: 0px 0px 4px 2px #000000;
+    box-shadow: 0px 0px 8px 2px #000000;
+}
+
 .navbar-brand img{
   margin-top:-5px;
     margin-left:-1px;
@@ -67,8 +128,7 @@ font-style: normal;
     }
 
 
-nav {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+
 	.navbar-brand {
 		a {
       color:#fff;
@@ -78,7 +138,7 @@ nav {
 			}
 		}
 	}
-}
+
 
 #pins {
   margin: 0 auto;
@@ -115,11 +175,10 @@ nav {
   margin: 0 auto;
   width: 100%;
   .box {
-	  margin: 10px;
-    padding:10px;
-	  width: 100px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 7px;
+	  margin: 0px;
+    padding:0px;
+
+
 
 	  img {
 	  	max-width: 100%;
@@ -207,70 +266,19 @@ textarea {
 
 $gray-medium-light: #eaeaea;
 
-@mixin box_sizing {
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
-}
 
-/* miscellaneous */
 
-.debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
-}
-/* sidebar */
 
-aside {
-  section.use_info {
-    margin-top: 20px;
-  }
-  section {
-    padding: 10px 0;
-    margin-top: 20px;
-    &:first-child {
-      border: 0;
-      padding-top: 0;
-    }
-    span {
-      display: block;
-      margin-bottom: 3px;
-      line-height: 1;
-    }
-    h1 {
-      font-size: 1.4em;
-      text-align: left;
-      letter-spacing: -1px;
-      margin-bottom: 3px;
-      margin-top: 0px;
-    }
-  }
-}
-
-.gravatar {
+.gravatar3 {
   float: left;
   margin-right: 10px;
 }
 
-.gravatar_edit {
+.gravatar_edit3 {
   margin-top: 15px;
 }
 
-/* forms */
 
-input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
-  width: 100%;
-
-  @include box_sizing;
-}
-
-input {
-  height: auto !important;
-}
 
 #error_explanation {
   color: red;
@@ -300,11 +308,9 @@ input {
   margin-left: 0;
 }
 .mymargin{margin-top:87px;}
-.nav{
+.nav{box-sizing: content-box
 }
-.container-fluid{
 
-}
 
 .flexy { 
   padding: 0;
