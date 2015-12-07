@@ -101,7 +101,7 @@
       / Collect the nav links, forms, and other content for toggling
       #bs-example-navbar-collapse-1.collapse.navbar-collapse
         %ul.nav.navbar-nav.collapsecustom
-          %li.active.collapsecustom
+          %li.active
             %a{:href => root_path}
               SHOP NOW
               %span.sr-only (current)
@@ -121,7 +121,7 @@
 
 
           - if logged_in?
-            %li.dropdown.collapsecustom
+            %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
                 My Profile
                 %b.caret
